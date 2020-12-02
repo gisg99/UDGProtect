@@ -1,0 +1,157 @@
+body {
+	margin:0;
+	background:#000111;
+	background-image:url(https://i.imgur.com/TUKOxaH.jpg);
+	background-repeat:no-repeat;
+	background-position:50% 150px;
+	color:#E2E2FF;
+}
+
+header nav{
+	background:#030030;
+	overflow:hidden;
+}
+
+header nav ul{
+	list-style:none;
+}
+
+header nav ul li{
+	float:left;
+}
+
+header nav ul li a{
+	padding:0px 20px;
+	margin:10px 0px;
+	display:block;
+	color:#E2E2FF;
+	font-size:25;
+	text-decoration:none;
+	font-family:Helvetica;
+}
+
+header nav ul li a:hover{
+	background:#07006C;
+}
+
+form {
+	width:15%;
+	border:1px; solid:#00E6F9;
+	margin:20px;
+	padding:20px;
+	display:block;
+	position:relative;
+	left:40%;
+}
+
+label {
+	font-size:20px;
+	display:block;
+}
+
+input, textarea {
+	margin-bottom:20px;
+	width:100%;
+	padding:10px;
+	background:#000111;
+	color:#00E6F9;
+	border:1px; solid:#00E6F9;
+}
+
+select {
+	margin-bottom:20px;
+	width:100%;
+	padding:10px;
+	background:#000111;
+	color:#00E6F9;
+	border:1px; solid:#00E6F9;
+}
+
+textarea {
+	resize:vertical;
+	min-height:100px;
+	max-height:300px;
+}
+
+input:focus, textarea:focus {
+	border:1px; solid:#00E6F9;
+}
+
+input[type="submit"] {
+	margin-bottom:0px;
+	background:#011175;
+	color:#E2E2FF;
+	border:none;
+}
+
+input[type="submit"]:hover {
+	background:#011DC9;
+	cursor:pointer;
+}
+
+img {
+	display:block;
+	margin:auto;
+}
+
+footer {
+	background:#000;
+	color:#FFFFFF;
+	clear:both;
+	padding:10px 0px;
+	text-align:center;
+}
+
+h1 {
+	font-size:35px;
+	font-family:Arial;
+	text-align:center;
+}
+
+h2 {
+	font-size:35px;
+	font-family:Arial;
+	text-align:center;
+}
+
+.main{
+	width:90%;
+	max-width:1000px;
+	margin:20px auto;
+}
+
+.info {
+	background:#F7F7F7;
+	color:#000111;
+	width:80%;
+	font-size:30;
+	font-family:Helvetica;
+	position:relative;
+	top:0px;
+	left:10%;
+}
+
+.topbar{
+	width:100%;
+	background:#000;
+	color:#FFFFFF;
+	text-align: center;
+}
+
+.texto {
+	text-align:center;
+	font-size:22;
+	font-family:Helvetica;
+	color:#F7F7F7;
+	position:relative;
+	width:80%;
+	Left:10%;
+}
+
+.imgtext {
+	font-size:22;
+	font-family:Helvetica;
+	color:#F7F7F7;
+	float:left;
+	margin:20px;
+}
